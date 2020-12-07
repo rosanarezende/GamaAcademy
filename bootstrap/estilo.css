@@ -1,0 +1,41 @@
+body{
+  background-color: gray;
+}
+
+.container{
+  background-color: white;
+}
+
+.container-fluid{
+  background-color: white;
+}
+
+h3, h5, h6{
+  text-align: center;
+}
+
+#logoLoja{
+  width: 100%;
+}
+
+#imagemLogo, #tituloDestaque{
+  margin-bottom: 30px;
+}
+
+.card-body p {
+  text-align: center;
+}
+
+#rodape {
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: darkgray;
+  color: white;
+}
+
+#redesSociais img{
+  width: 30px;
+  margin-right: 5px;
+}
+
+
