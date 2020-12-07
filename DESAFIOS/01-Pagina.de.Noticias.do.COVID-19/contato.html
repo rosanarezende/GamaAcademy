@@ -2,16 +2,17 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="script.js" defer></script>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
   <title>Contato</title>
 </head>
 
 <body>
   <header>
+    <h1>PÁGINA DE NOTÍCIAS DO COVID-19</h1>
     <nav>
       <ul>
         <li>
@@ -29,11 +30,22 @@
       </ul>
     </nav>
   </header>
-  <main>
 
+  <main id="contato">
+    <form method="post">
+      <h2>Mande-me uma mensagem</h2>
+      <div id="inputs">
+        <div>
+          <input type="text" id="txtName" placeholder="Seu nome *" />
+          <input type="text" id="txtEmail" placeholder="Seu email *" />
+        </div>
+        <textarea id="txtMsg" placeholder="Sua mensagem *"></textarea>
+      </div>
+      <input id="btn-send" type="submit" name="btnSubmit" value="Enviar mensagem" onclick="enviarMsg(event)" />
+    </form>
   </main>
-  <footer>
 
+  <footer>
     <div>
       <img src="https://user-images.githubusercontent.com/45580434/86594186-f53cd800-bf6c-11ea-9868-bdb10d9083f6.png"
         alt="logo" id="rosana-logo" />
@@ -54,10 +66,7 @@
       </a>
     </div>
 
-    <div id="copyright">
-      © Dez. 2020
-    </div>
-
+    <div id="copyright">© Dez. 2020</div>
   </footer>
 </body>
 
